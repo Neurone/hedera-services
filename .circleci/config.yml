@@ -1569,7 +1569,7 @@ jobs:
             
             # Build JRS
             cd /swirlds-platform/regression
-            git checkout -b 02614-D-migration-test-state-file origin/02614-D-migration-test-state-file 
+            git checkout -b 02618-D-update-build-script origin/02618-D-update-build-script 
             ./mvnw clean install
 
       - run:
